@@ -1,0 +1,34 @@
+.canvas-container {
+  background-color: white;
+  margin: 60px auto;
+  border-radius: 12px;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  mask-image: url("../public/cursor.png");
+  mask-size: 20px 20px;
+  border: none;
+}
+
+#toolbar {
+  height: 40px;
+  width: 60%;
+  margin: 20px auto 0;
+  background-color: white;
+}
+
+button {
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 8px 0 0 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(191, 192, 250);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(214, 214, 249);
+}
